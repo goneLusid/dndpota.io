@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 35%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2, dl, dt, dd {
+    font-family: 'Cinzel Decorative', sans-serif;
+    color: #5b8c85;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', sans-serif;
+    font-size: 40px;
+    color: #5b8c85;
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    background-image: url("../images/dnd-bg.jpg");
+}
+
+img {
+    width: 1300px;
+    height: 300px;
+    border: 5px solid #434e52;
+    border-radius: 2px;
+}
+
